@@ -363,10 +363,6 @@ cursor: pointer;
       transform: translate(-50%, -50%);
   }
 
-  #burgerMenu {
-    text-align: right;
-  }
-
   #mainImage {
   height: 475px;
   background-color: #333333;
