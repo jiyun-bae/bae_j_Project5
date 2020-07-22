@@ -79,9 +79,9 @@ h4 {
 
 .centered55 {
 	position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Colour */
@@ -125,52 +125,6 @@ h4 {
   display: none;
 }
 
-/* Centered the text, top 40% */
-
-.centered55 {
-	position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-/* Colour */
-.red {
-	color: red;
-}
-
-.darkOrange {
-	color: darkorange;
-}
-
-.green {
-	color: green;
-}
-
-.dodgerBlue {
-	color: dodgerblue;
-}
-
-.purple {
-	color: purple;
-}
-
-.pink {
-	color: mediumvioletred;
-}
-
-.black {
-	background-color: black;
-}
-
-.blackFont {
-	color: black;
-}
-
-.beerColour {
-	color: #f6c101;
-}
-
 .image {
   opacity: 1;
   display: block;
@@ -180,6 +134,7 @@ h4 {
   backface-visibility: hidden;
 }
 
+/* home page start */
 .container {
   margin: 0px auto;
   padding: 0px 15px 0 15px;
@@ -189,8 +144,7 @@ h4 {
 /* mobile first */
 #mainHeader {
   background-color: black;
-  height: 65px;
-  margin-bottom: 5px;
+  margin: 5px 0 20px 0;
 }
 
 #mainImage {
@@ -201,6 +155,7 @@ color: white;
 border-bottom: 5px #ffba43 solid;
 border-top: 5px #ffba43 solid;
 border-bottom: 5px #ffba43 solid;
+margin-top: -20px;
 }
 
 #mainImage #exploreBtn {
@@ -358,9 +313,9 @@ cursor: pointer;
 
   .centered40 {
   	position: absolute;
-      top: 40%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   #mainImage {
@@ -416,7 +371,6 @@ cursor: pointer;
 
   .positionAbsoluteMainImage {
     display: flex;
-  	height: 475px;
   	position: absolute;
   	top: 30%;
     left: -5%;
